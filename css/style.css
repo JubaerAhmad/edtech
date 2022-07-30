@@ -1,10 +1,20 @@
-.carousel-item {
-    height: 32rem;
-    
-}
-
 .company img {
     width: 100px;
     height: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+    .company {
+        display: none;
+    }
+
+  }
+
+@media only screen and (max-width: 600px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  }
